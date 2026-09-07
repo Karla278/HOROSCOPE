@@ -3,12 +3,23 @@ A horoscope is a prediction or interpretation of diferent aspects of life for ea
 
 The horoscope may not have scientific accuracy but it can make you wonder about your decisions and life, it can also provide you motivation to accomplish those projects you´ve left aside, or help you settle down when you´re feeling lost and in crisis.
 
-This program generates specific predictions, advises and recomendations based on the zodiac sign of the user. 
+This program will simulate a horoscope consultation. The user will enter personal information such as their name, birth date, birthplace, and current mood. The program will automatically determine the user's zodiac sign based and generate personalized predictions, advice, and recommendations related to  love, friendships, studies, work, and personal well-being.
+
+In addition to the basic horoscope reading, the program will include extra features. The user will be able to:
+- Request multiple horoscope consultations.
+- Receive mood-improvement suggestions.
+- Check zodiac sign compatibility with another person.
+- View statistics about previous consultations.
+- Access a history of their past consultations using their name.
+- Receive randomly generated messages to make each consultation unique.
+ 
 Algorithm:
 1. Ask for personal data, meaning name, birth date, birth place and mood.
-2. Determine zodiac sign
-3. Asign diferent predictions, advises, recomendations to each sign
-4. Acording to the zodiac sign given choose a prediction, advise and recomedation between the available
-5. Give the option to make another consultation, advise to improve the mood, show sign compatibility or show some statistics about signs
-6. Keep track of the consultation that can be later called with the name of the user
+2. Determine the user´s zodiac sign
+3. Load the predictions, advice, recommendations, and compatibility data related with that sign.
+4. Randomly select the messages.
+5. Display the horoscope results to the user.
+6. Save the consultation in a file.
+7. Provide additional menu options: new consultation, mood advice, sign compatibility, consultation history, statistics.
+8. Repeat until the user chooses to exit.
    
